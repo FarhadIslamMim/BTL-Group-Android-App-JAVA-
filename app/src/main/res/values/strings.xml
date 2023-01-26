@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BTL Android</string>
+
+    <plurals name="number_days">
+        <item quantity="one"> %d day</item>
+        <item quantity="other"> %d days</item>
+    </plurals>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="internet_not_available">Internet connection is not available</string>
+    <string name="change_password_underline"><u>Change Password</u></string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.HostActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_2sdp"
+        android:background="@color/md_white_1000"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivPreviousMonth"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_arrow_white" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_3sdp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtMonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="January"
+                android:textColor="@color/md_black_1000"
+                android:textSize="@dimen/_10ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_minus8sdp"
+                android:gravity="center"
+                android:text="Total Order: BDT. 2500"
+                android:textColor="@color/purple_200"
+                android:textSize="@dimen/_8ssp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivNextMonth"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:rotation="180"
+            android:src="@drawable/ic_arrow_white"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnNewOrder"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_weight="1"
+            android:text="New Order"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_8ssp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_2sdp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etFilter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="Search Dealer/Customer/Depot"
+            android:textSize="@dimen/_10ssp" />
+
+        <Button
+            android:id="@+id/btnDraftOrder"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/md_grey_400"
+            android:text="Draft Order"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_8ssp"
+            android:textStyle="normal"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

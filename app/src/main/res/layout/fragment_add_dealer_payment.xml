@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="@dimen/_5sdp"
+                app:cardElevation="@dimen/_5sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/_5sdp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:layout_marginBottom="@dimen/_2sdp"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/txtDealer"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="2"
+                                    android:text="Set Dealer"
+                                    android:textColor="@color/md_black_1000"
+                                    android:textSize="@dimen/_10ssp"
+                                    android:gravity="center|start"
+                                    android:textStyle="bold"/>
+
+                                <Button
+                                    android:id="@+id/btnSetDealer"
+                                    android:layout_width="0dp"
+                                    android:layout_height="@dimen/_30sdp"
+                                    android:layout_weight="1"
+                                    android:text="Set Dealer"
+                                    android:textSize="@dimen/_8ssp"
+                                    android:layout_marginStart="@dimen/_3sdp"/>
+
+
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_7sdp"
+                                android:layout_marginBottom="@dimen/_7sdp"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/txtBank"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="2"
+                                    android:text="Set Bank"
+                                    android:textColor="@color/md_black_1000"
+                                    android:textSize="@dimen/_10ssp"
+                                    android:gravity="center|start"
+                                    android:textStyle="bold"/>
+
+                                <Button
+                                    android:id="@+id/btnSetBank"
+                                    android:layout_width="0dp"
+                                    android:layout_height="@dimen/_30sdp"
+                                    android:layout_weight="1"
+                                    android:text="Set Bank"
+                                    android:textSize="@dimen/_8ssp"
+                                    android:layout_marginStart="@dimen/_3sdp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_7sdp"
+                                android:layout_marginBottom="@dimen/_7sdp"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/txtDate"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="2"
+                                    android:text="Set Date"
+                                    android:textColor="@color/md_black_1000"
+                                    android:textSize="@dimen/_10ssp"
+                                    android:gravity="center|start"
+                                    android:textStyle="bold"/>
+                                <Button
+                                    android:id="@+id/btnSetDate"
+                                    android:layout_width="0dp"
+                                    android:layout_height="@dimen/_30sdp"
+                                    android:layout_weight="1"
+                                    android:text="Set Date"
+                                    android:textSize="@dimen/_8ssp"
+                                    android:layout_marginStart="@dimen/_3sdp"/>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_4sdp"
+                                android:orientation="vertical">
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Amount">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/tieAmount"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:digits="0123456789"
+                                        android:inputType="number" />
+                                </com.google.android.material.textfield.TextInputLayout>
+                            </LinearLayout>
+                            <LinearLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_4sdp"
+                                android:orientation="vertical">
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="Note">
+
+                                    <com.google.android.material.textfield.TextInputEditText
+                                        android:id="@+id/tieNote"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content" />
+                                </com.google.android.material.textfield.TextInputLayout>
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_margin="@dimen/_5sdp"
+                                android:text="Bank Receipt (Tap logo to pick or capture photo) "
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_10sdp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="@dimen/_100sdp"
+                                    android:layout_margin="@dimen/_5sdp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/ivPhoto"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="5"
+                                        android:src="@drawable/btl"
+                                        android:visibility="visible"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:padding="10dp"
+            android:text="Submit"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>

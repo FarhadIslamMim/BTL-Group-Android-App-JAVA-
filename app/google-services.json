@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "746919835405",
+    "firebase_url": "https://facedetection-27687-default-rtdb.firebaseio.com",
+    "project_id": "facedetection-27687",
+    "storage_bucket": "facedetection-27687.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746919835405:android:c765bd65dccd2a43caa244",
+        "android_client_info": {
+          "package_name": "com.oshni.chimbuk.sobhisab.sobhisab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746919835405-5vbbn7if5hu2ajqficnqeg74dgj4vuun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxfbwDja79IefuzAzE-K2VhywuGmZ5hIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746919835405-5vbbn7if5hu2ajqficnqeg74dgj4vuun.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "746919835405-6sbvaaho0mnd5lqcnpctu8hu8sk53oop.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.oshni.chimbuk.sobhisab.sobhisab"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746919835405:android:04b3c3c74521d10acaa244",
+        "android_client_info": {
+          "package_name": "com.oshnisoft.erp.btl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746919835405-5vbbn7if5hu2ajqficnqeg74dgj4vuun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxfbwDja79IefuzAzE-K2VhywuGmZ5hIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746919835405-5vbbn7if5hu2ajqficnqeg74dgj4vuun.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "746919835405-6sbvaaho0mnd5lqcnpctu8hu8sk53oop.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.oshni.chimbuk.sobhisab.sobhisab"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746919835405:android:ba3e2c5dc50e3d0dcaa244",
+        "android_client_info": {
+          "package_name": "com.oshnisoft.sspl.erp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746919835405-5vbbn7if5hu2ajqficnqeg74dgj4vuun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxfbwDja79IefuzAzE-K2VhywuGmZ5hIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746919835405-5vbbn7if5hu2ajqficnqeg74dgj4vuun.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "746919835405-6sbvaaho0mnd5lqcnpctu8hu8sk53oop.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.oshni.chimbuk.sobhisab.sobhisab"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

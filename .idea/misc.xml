@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/drawable-v24/bill_date.xml" value="0.11" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/drawable-v24/edittext_bg.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/drawable-v24/ic_address.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/drawable-v24/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/drawable/bg_spinner.xml" value="0.11" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/drawable/bill_date.xml" value="0.11" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/drawable/ic_add.xml" value="0.11" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/drawable/ic_address.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/drawable/ic_arrow_white.xml" value="0.11" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/drawable/ic_bank.xml" value="0.114" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/drawable/ic_calendar.xml" value="0.11" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/drawable/ic_close.xml" value="0.11" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/drawable/ic_menu.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/drawable/ic_remove.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/activity_change_password.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/activity_dashboard.xml" value="0.3333333333333333" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/activity_host.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/activity_main_menu.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/activity_notification.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/dialog_add_quantity_for_delear.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_add_dealer_payment.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_add_depot_payment.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_add_item.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_apply_leave.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_asset.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_attendance.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_attendance_list.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_bill.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_create_asset.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_create_bill.xml" value="0.17447916666666666" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_customer_add.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_customer_list.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_customer_order_create.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_dealer_order_create.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_dialog_add_quantity.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_dialog_date_picker.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_dialog_full_image.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_dialog_order_create_preview.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_dialog_order_set_customer.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_dialog_set_bank.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_draft_order.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_leave.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_order.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_order_preview.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_order_view_pager.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/fragment_payment.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/item_add_customer_order.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/item_asset_history.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/item_attendance.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/item_bill_history.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/item_cash_collection.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/item_customer.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/item_draft_order.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/item_draft_order_product.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/item_leave.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/item_leave_type.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/item_notification.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/item_set_bank.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/item_set_customer.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTL Android/app/src/main/res/layout/notification.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTLAndroid/app/src/main/res/drawable-v24/button_round_circle.xml" value="0.1045" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTLAndroid/app/src/main/res/drawable-v24/button_style.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTLAndroid/app/src/main/res/drawable-v24/ic_tick.xml" value="0.1045" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTLAndroid/app/src/main/res/drawable/button_round_circle_color.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTLAndroid/app/src/main/res/drawable/ic_sync.xml" value="0.1045" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTLAndroid/app/src/main/res/drawable/ic_tick.xml" value="0.1045" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTLAndroid/app/src/main/res/layout/activity_dashboard.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTLAndroid/app/src/main/res/layout/activity_host.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTLAndroid/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTLAndroid/app/src/main/res/layout/activity_main_menu.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTLAndroid/app/src/main/res/layout/button_round_circle.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTLAndroid/app/src/main/res/layout/item_main_menu_grid.xml" value="0.17552083333333332" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTLAndroid/app/src/main/res/layout/loading_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Oshni_Software/BTL Folder/BTLAndroid/app/src/main/res/menu/main_menu.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

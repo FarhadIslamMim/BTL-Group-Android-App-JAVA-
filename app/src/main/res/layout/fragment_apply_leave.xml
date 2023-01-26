@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.leave.ApplyLeaveFragment"
+    android:layout_margin="@dimen/_5sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/button_round_circle"
+        android:padding="@dimen/_3sdp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/_10ssp"
+            android:text="Select Leave Type"
+            android:textColor="@color/md_black_1000"
+            android:gravity="center"/>
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spLeaveType"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:focusable="true">
+
+        <LinearLayout
+            android:id="@+id/llFromDate"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginEnd="@dimen/_3sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_round_circle"
+            android:padding="@dimen/_3sdp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Set From Date"
+                android:textColor="@color/md_black_1000"
+                android:gravity="center"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:id="@+id/txtFromDate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/md_black_1000"
+                android:textSize="@dimen/_10ssp"
+                android:gravity="center" />
+
+            <ImageView
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_calendar"
+                android:gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/button_round_circle"
+        android:padding="@dimen/_3sdp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Set To Date"
+            android:textColor="@color/md_black_1000"
+            android:gravity="center"
+            android:textSize="@dimen/_10ssp" />
+
+        <TextView
+            android:id="@+id/txtToDate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/md_black_1000"
+            android:textSize="@dimen/_10ssp"
+            android:gravity="center" />
+
+        <ImageView
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_calendar"
+            android:gravity="center" />
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:hint="Write Reason">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tieReason"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_10ssp"
+                android:imeOptions="actionGo"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/btnSubmitForApproval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:text="Submit Leave For Approval"
+        android:textSize="@dimen/_12ssp"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        />
+
+
+</LinearLayout>
